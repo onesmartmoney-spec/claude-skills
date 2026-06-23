@@ -1,0 +1,104 @@
+{
+  "$schema": "https://skills.sh/schema/skills.json",
+  "name": "claude-skills",
+  "description": "A curated collection of 13 production-ready Claude skills with 127 commands for email, writing, decision-making, learning, planning, creativity, career, social media, meetings, business, and utilities.",
+  "repository": "https://github.com/onesmartmoney/claude-skills",
+  "author": "onesmartmoney",
+  "license": "MIT",
+  "version": "1.0.0",
+  "skills": {
+    "email-messages": {
+      "path": "./email-messages",
+      "description": "Transforms and optimizes email communication. Converts bullet points to professional emails, changes tone, crafts difficult messages respectfully.",
+      "commands": 11
+    },
+    "write-edit": {
+      "path": "./write-edit",
+      "description": "Polishes your texts to perfection. Fixes typos, generates alternatives, simplifies language, strengthens passive constructions.",
+      "commands": 11
+    },
+    "think-decide": {
+      "path": "./think-decide",
+      "description": "Supports you with difficult decisions through structured analysis. Weighs options, reveals hidden risks, asks skeptic questions.",
+      "commands": 10
+    },
+    "learn-understand": {
+      "path": "./learn-understand",
+      "description": "Explains complex concepts understandably and imparts new knowledge in a structured way. Crash courses, myth-busting, comparisons.",
+      "commands": 11
+    },
+    "plan-organize": {
+      "path": "./plan-organize",
+      "description": "Structures your time and tasks systematically. Creates weekly plans, milestones, schedules, routines and checklists.",
+      "commands": 11
+    },
+    "brainstorm": {
+      "path": "./brainstorm",
+      "description": "Generates creative ideas and solutions from many perspectives. Idea lists, alternative approaches, combining concepts.",
+      "commands": 11
+    },
+    "work-career": {
+      "path": "./work-career",
+      "description": "Supports your professional development and communication. Interview prep, resume bullets, salary negotiations.",
+      "commands": 11
+    },
+    "content-social": {
+      "path": "./content-social",
+      "description": "Optimizes content for social media and digital platforms. Hook lines, captions, threads, carousels, CTAs.",
+      "commands": 11
+    },
+    "meetings-notes": {
+      "path": "./meetings-notes",
+      "description": "Converts meeting chaos into clear documentation. Cleans notes into minutes, extracts action items, creates status updates.",
+      "commands": 12
+    },
+    "small-business": {
+      "path": "./small-business",
+      "description": "Workflows for small businesses. Creates invoices, customer emails, contracts, proposals, payment reminders and business strategies.",
+      "commands": 12
+    },
+    "pdf-reader-skill": {
+      "path": "./pdf-reader-skill",
+      "description": "Reads and processes PDF documents reliably. Extracts text and tables, summarizes, highlights sections and recognizes scanned pages (OCR-hint).",
+      "commands": 4,
+      "requirements": ["PyMuPDF", "pdfplumber"]
+    },
+    "video-lesen": {
+      "path": "./video-lesen",
+      "description": "Reads and analyzes video files and video URLs. Fetches transcripts, frames and metadata. YouTube, Vimeo, local videos (.mp4, .mkv, etc).",
+      "commands": 4,
+      "requirements": ["ffmpeg", "ffprobe", "yt-dlp"]
+    },
+    "summarize-changes": {
+      "path": "./summarize-changes",
+      "description": "Summarizes uncommitted changes in git repository. Flags risky changes, missing error handling, hardcoded values.",
+      "commands": 1,
+      "requirements": ["git"]
+    }
+  },
+  "categories": {
+    "communication": ["email-messages"],
+    "writing": ["write-edit"],
+    "decision-making": ["think-decide"],
+    "learning": ["learn-understand"],
+    "productivity": ["plan-organize", "meetings-notes"],
+    "creativity": ["brainstorm"],
+    "career": ["work-career"],
+    "marketing": ["content-social"],
+    "business": ["small-business"],
+    "utilities": ["pdf-reader-skill", "video-lesen"],
+    "development": ["summarize-changes"]
+  },
+  "tags": [
+    "productivity",
+    "writing",
+    "decision-making",
+    "communication",
+    "business",
+    "career",
+    "social-media",
+    "learning",
+    "planning",
+    "creativity"
+  ]
+}

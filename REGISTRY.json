@@ -1,0 +1,349 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-06-23",
+  "totalSkills": 13,
+  "skills": [
+    {
+      "name": "email-messages",
+      "category": "communication",
+      "description": "Transformiert und optimiert E-Mail-Kommunikation. Konvertiert Bullet Points in professionelle E-Mails, ändert den Ton, verfasst schwierige Nachrichten respektvoll.",
+      "commands": 11,
+      "commandList": [
+        "/DECLINE",
+        "/SHORTEN",
+        "/WARMER",
+        "/FOLLOWUP",
+        "/SAYNO",
+        "/BULLETZEMAIL",
+        "/THANKS",
+        "/CONFIDENT",
+        "/OOO",
+        "/HARASS",
+        "/INTRO"
+      ],
+      "path": "~/.claude/skills/email-messages",
+      "useCases": [
+        "Höfliche Ablehnung von Anfragen",
+        "Formale E-Mails lockerer gestalten",
+        "Out-of-Office Auto-Reply",
+        "Schwierige Nachrichten professionell formulieren"
+      ]
+    },
+    {
+      "name": "write-edit",
+      "category": "writing",
+      "description": "Poliert deine Texte zu Perfektion. Behebt Tippfehler, generiert alternative Versionen, vereinfacht Sprache, stärkt passive Konstruktionen.",
+      "commands": 11,
+      "commandList": [
+        "/PROOF",
+        "/REWRITES",
+        "/CUTHALF",
+        "/OPENERS",
+        "/FILLER",
+        "/ACTIVE",
+        "/HUMAN",
+        "/EXAMPLES",
+        "/SIMPLIFY",
+        "/TITLES",
+        "/TONE"
+      ],
+      "path": "~/.claude/skills/write-edit",
+      "useCases": [
+        "Blog-Artikel vereinfachen",
+        "Newsletter-Text kürzen",
+        "KI-Text menschlicher machen",
+        "Multiple Titel-Varianten generieren"
+      ]
+    },
+    {
+      "name": "think-decide",
+      "category": "decision-making",
+      "description": "Unterstützt dich bei schwierigen Entscheidungen durch strukturierte Analyse. Wägt Optionen ab, zeigt versteckte Risiken, stellt Skeptiker-Fragen.",
+      "commands": 10,
+      "commandList": [
+        "/CHOOSE",
+        "/REALPC",
+        "/BLINDSPOT",
+        "/STEELMAN",
+        "/DEVIL",
+        "/SKEPTIC",
+        "/STEPS",
+        "/RIPPLE",
+        "/PREMORTEM",
+        "/MINTEST"
+      ],
+      "path": "~/.claude/skills/think-decide",
+      "useCases": [
+        "Karriere-Entscheidungen abwägen",
+        "Risiken vor Produktlaunch identifizieren",
+        "Annahmen kritisch hinterfragen",
+        "MVP schnell validieren"
+      ]
+    },
+    {
+      "name": "learn-understand",
+      "category": "learning",
+      "description": "Erklärt komplexe Konzepte verständlich und vermittelt neues Wissen strukturiert. Crash-Courses, Mythen-Entlarvung, Vergleiche.",
+      "commands": 11,
+      "commandList": [
+        "/ELI10",
+        "/PRIMER",
+        "/MYTHS",
+        "/ANALOGY",
+        "/QUIZ",
+        "/COMPARE",
+        "/PREREQ",
+        "/SUM3",
+        "/GLOSSARY",
+        "/ASKBETTER",
+        "/MENTALMODEL"
+      ],
+      "path": "~/.claude/skills/learn-understand",
+      "useCases": [
+        "Neues Framework schnell verstehen",
+        "Nach technischem Gespräch aufklären",
+        "Deep-Dive mit Selbstprüfung",
+        "Vorkenntnisse prüfen"
+      ]
+    },
+    {
+      "name": "plan-organize",
+      "category": "productivity",
+      "description": "Strukturiert deine Zeit und Aufgaben systematisch. Erstellt Wochenpläne, Meilensteine, Zeitpläne, Routinen und Checklisten.",
+      "commands": 11,
+      "commandList": [
+        "/WEEK",
+        "/MILESTONES",
+        "/PACK",
+        "/SCHEDULE",
+        "/ROUTINE",
+        "/PRIORITIZE",
+        "/MEALS",
+        "/AGENDA",
+        "/PREPTIME",
+        "/ORDER",
+        "/CHECKLIST"
+      ],
+      "path": "~/.claude/skills/plan-organize",
+      "useCases": [
+        "Große Projekte mit Deadlines planen",
+        "Chaotische To-Do-Listen strukturieren",
+        "Meetings vorbereiten",
+        "Wöchentliche Routinen etablieren"
+      ]
+    },
+    {
+      "name": "brainstorm",
+      "category": "creativity",
+      "description": "Generiert kreative Ideen und Lösungen aus vielen Blickwinkeln. Ideenlisten, alternative Ansätze, Konzepte verbinden.",
+      "commands": 11,
+      "commandList": [
+        "/IDEAS20",
+        "/GIFTS",
+        "/NAMES",
+        "/UNUSUAL",
+        "/ANGLE",
+        "/COMBINE",
+        "/METAPHOR",
+        "/STARTERS",
+        "/JOURNALSO",
+        "/AS",
+        "/CHILD"
+      ],
+      "path": "~/.claude/skills/brainstorm",
+      "useCases": [
+        "Produktnamen finden",
+        "Stuck bei Problemlösung",
+        "Social-Media-Kampagnen-Ideen",
+        "Kreative Geschenke vorschlagen"
+      ]
+    },
+    {
+      "name": "work-career",
+      "category": "career",
+      "description": "Unterstützt deine berufliche Entwicklung und Kommunikation. Interview-Vorbereitung, Bewerbungs-Bullets, Gehaltsverhandlungen.",
+      "commands": 11,
+      "commandList": [
+        "/INTERVIEW",
+        "/RESUMEBULLET",
+        "/ASKINTERVIEWER",
+        "/NEGOTIATE",
+        "/RECONNECT",
+        "/GAP",
+        "/WINS",
+        "/CHECKONE",
+        "/SELFREVIEW",
+        "/IDON'TKNOW",
+        "/RAISE"
+      ],
+      "path": "~/.claude/skills/work-career",
+      "useCases": [
+        "Vor Bewerbungsgespräch vorbereiten",
+        "Performance-Review schreiben",
+        "Gehaltsverhandlung führen",
+        "Karriere-Lücken professionell erklären"
+      ]
+    },
+    {
+      "name": "content-social",
+      "category": "marketing",
+      "description": "Optimiert Content für Social Media und digitale Plattformen. Hook-Linien, Bildunterschriften, Threads, Carousels, CTAs.",
+      "commands": 11,
+      "commandList": [
+        "/HOOK",
+        "/CAPTION",
+        "/THREAD",
+        "/CAROUSEL",
+        "/REPURPOSE",
+        "/CTA",
+        "/BIO",
+        "/SUBJECT",
+        "/CONTRARIAN",
+        "/SHORTPOST",
+        "/COMMENT"
+      ],
+      "path": "~/.claude/skills/content-social",
+      "useCases": [
+        "LinkedIn Posts mit mehr Engagement",
+        "Instagram Story Caption schreiben",
+        "Tweet-Threads strukturieren",
+        "Newsletter Subject Lines testen"
+      ]
+    },
+    {
+      "name": "meetings-notes",
+      "category": "productivity",
+      "description": "Konvertiert Meeting-Chaos in klare Dokumentation. Bereinigt Notizen in Protokolle, extrahiert Action Items, erstellt Status-Updates.",
+      "commands": 12,
+      "commandList": [
+        "/MEETINGNOTES",
+        "/ACTIONITEMS",
+        "/STANDUP",
+        "/RECAP",
+        "/DECISIONS",
+        "/QUESTIONS",
+        "/STATUS",
+        "/BRIEFME",
+        "/REWIND",
+        "/DEBRIEF",
+        "/TLDR",
+        "/RETRO"
+      ],
+      "path": "~/.claude/skills/meetings-notes",
+      "useCases": [
+        "Rohe Notizen in Protokoll umwandeln",
+        "Daily Standup vorbereiten",
+        "Entscheidungen festhalten",
+        "Projekt-Retrospektive durchführen"
+      ]
+    },
+    {
+      "name": "small-business",
+      "category": "business",
+      "description": "Workflows für kleine Unternehmen. Erstellt Rechnungen, Kundenmail, Verträge, Angebote, Zahlungserinnerungen und Geschäftsstrategien.",
+      "commands": 12,
+      "commandList": [
+        "/INVOICE",
+        "/CUSTOMER-EMAIL",
+        "/CASHFLOW",
+        "/CONTRACT",
+        "/PROPOSAL",
+        "/REMINDER",
+        "/FEEDBACK",
+        "/ONBOARDING",
+        "/UPSELL",
+        "/RETENTION",
+        "/FOLLOWUP",
+        "/EXPENSE"
+      ],
+      "path": "~/.claude/skills/small-business",
+      "useCases": [
+        "Rechnungen professionell strukturieren",
+        "Kundenbeziehungen managen",
+        "Cashflow-Planung erstellen",
+        "Verträge und Angebote vorbereiten"
+      ]
+    },
+    {
+      "name": "pdf-reader-skill",
+      "category": "utilities",
+      "description": "Liest und verarbeitet PDF-Dokumente zuverlässig. Extrahiert Text und Tabellen, fasst zusammen, erkennt gescannte Seiten (OCR-Hinweis).",
+      "commands": 4,
+      "commandList": [
+        "--info",
+        "--pages",
+        "--tables",
+        "transcribe"
+      ],
+      "path": "~/.claude/skills/pdf-reader-skill",
+      "useCases": [
+        "Vollständige PDFs lesen und zusammenfassen",
+        "Bestimmte Seiten oder Tabellen extrahieren",
+        "Stichwortsuche in PDF durchführen",
+        "Gescannte Seiten erkennen"
+      ]
+    },
+    {
+      "name": "video-lesen",
+      "category": "utilities",
+      "description": "Liest und analysiert Videodateien und Video-URLs. Holt Transkripte, Frames und Metadaten. YouTube, Vimeo, lokale Videos (.mp4, .mkv, etc).",
+      "commands": 4,
+      "commandList": [
+        "subs (Untertitel)",
+        "frames (Einzelbilder)",
+        "info (Metadaten)",
+        "transcribe (Transkript)"
+      ],
+      "path": "~/.claude/skills/video-lesen",
+      "useCases": [
+        "YouTube-Videos zusammenfassen",
+        "Lokale Videodateien transkribieren",
+        "Frames für visuelle Analyse extrahieren",
+        "Video-Metadaten prüfen"
+      ]
+    },
+    {
+      "name": "summarize-changes",
+      "category": "development",
+      "description": "Summarizes uncommitted changes in git repository. Flags risky changes, missing error handling, hardcoded values.",
+      "commands": 1,
+      "commandList": [
+        "git diff HEAD"
+      ],
+      "path": "~/.claude/skills/summarize-changes",
+      "useCases": [
+        "Uncommitted changes reviewen",
+        "Commit messages generieren",
+        "Risks in Diffs identifizieren"
+      ]
+    }
+  ],
+  "categories": {
+    "communication": ["email-messages"],
+    "writing": ["write-edit"],
+    "decision-making": ["think-decide"],
+    "learning": ["learn-understand"],
+    "productivity": ["plan-organize", "meetings-notes"],
+    "creativity": ["brainstorm"],
+    "career": ["work-career"],
+    "marketing": ["content-social"],
+    "business": ["small-business"],
+    "utilities": ["pdf-reader-skill", "video-lesen"],
+    "development": ["summarize-changes"]
+  },
+  "searchIndex": {
+    "email": ["email-messages"],
+    "writing": ["write-edit"],
+    "decision": ["think-decide"],
+    "learning": ["learn-understand"],
+    "planning": ["plan-organize"],
+    "brainstorm": ["brainstorm"],
+    "career": ["work-career"],
+    "social": ["content-social"],
+    "meetings": ["meetings-notes"],
+    "business": ["small-business", "work-career"],
+    "pdf": ["pdf-reader-skill"],
+    "video": ["video-lesen"],
+    "git": ["summarize-changes"]
+  }
+}
