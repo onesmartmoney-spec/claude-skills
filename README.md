@@ -1,5 +1,7 @@
 # Claude Skills Library 🚀
 
+[![skills.sh](https://skills.sh/b/onesmartmoney-spec/claude-skills)](https://skills.sh/onesmartmoney-spec/claude-skills)
+
 Eine kuratierte Sammlung von **13 produktiven Claude Skills** für E-Mail, Schreiben, Entscheidungen, Lernen, Planung, Kreativität, Karriere, Social Media, Meetings, Geschäft und Utilities.
 
 **Gesamt: 127 Befehle** – Alle kategorisiert, durchsuchbar und einsatzbereit.
